@@ -1,15 +1,15 @@
 # Metin Dönüştürücü
 
-Bu program, kullanıcının girdiği metni ters çevirme, büyük harflere dönüştürme ve küçük harflere dönüştürme işlemlerini gerçekleştirir.
+Bu Python programı, kullanıcının girdiği metni ters çevirme, büyük harflere dönüştürme ve küçük harflere dönüştürme işlemlerini gerçekleştirir.
 
 ## Nasıl Çalışır?
 
-1. Kullanıcıdan bir metin istenir.
-2. Girilen metin, `MetinDonusturucu` sınıfının bir örneği oluşturulur.
-3. `MetinDonusturucu` sınıfı, girilen metni ters çevirme, büyük harflere dönüştürme ve küçük harflere dönüştürme işlemlerini gerçekleştiren yöntemleri içerir.
-4. Oluşturulan `MetinDonusturucu` örneği kullanılarak metin dönüştürme işlemleri yapılır.
-5. Sonuçlar kullanıcıya ekrana yazdırılır.
+1. `MetinDonusturucu` sınıfı, kullanıcının girdiği metni alarak bir örnek oluşturur.
+2. Oluşturulan örnek, `ters_cevir()`, `buyuk_harfe_cevir()` ve `kucuk_harfe_cevir()` yöntemleriyle metni ters çevirir, büyük harflere dönüştürür veya küçük harflere dönüştürür.
+3. Kullanıcıya dönüştürme seçenekleri gösterilir ve kullanıcı istediği dönüşümü seçer.
+4. Seçilen dönüşüm işlemi gerçekleştirilir ve sonuç ekrana yazdırılır.
 
 ## Kullanım
 
-Program çalıştırıldığında, kullanıcıdan bir metin girmesi istenir. Ardından, metnin ters çevrilmiş hali, büyük harflerle yazılmış hali ve küçük harflerle yazılmış hali ekrana yazdırılır.
+Program çalıştırıldığında, kullanıcıdan bir metin girmesi istenir. Daha sonra kullanıcıya dönüştürme seçenekleri gösterilir ve istenilen dönüşüm seçilir. Program, seçilen işlemi gerçekleştirir ve sonucu ekrana yazdırır.
+
